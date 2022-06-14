@@ -31,6 +31,7 @@ public static void main(String[] args) {
     
   WebElement btn = driver.findElement(By.name("login"));
    click(btn);
+   System.out.println("fb");
 }
 
 private static WebDriver chromeBrowser() {
